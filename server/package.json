@@ -1,0 +1,24 @@
+{
+  "name": "practica_profesional-server",
+  "version": "1.0.0",
+  "description": "codigo fuente para el servidor del challenge de la practica profesional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinDQuintana/Practica-Profesional.git"
+  },
+  "keywords": [
+    "practica",
+    "profesional",
+    "Digital-House"
+  ],
+  "author": "Kevin Quintana, López Valentin, Maciel Martinez, Gabriel Veramendi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KevinDQuintana/Practica-Profesional/issues"
+  },
+  "homepage": "https://github.com/KevinDQuintana/Practica-Profesional#readme"
+}
