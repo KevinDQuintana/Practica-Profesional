@@ -1,3 +1,4 @@
+const db = require('../models');
 const path = require('path');
 
 const controller = {
@@ -13,6 +14,16 @@ const controller = {
 		);
 		res.set({ 'Content-Type': 'image/jpg' });
 		res.sendFile(filePath);
+	},
+
+	all: async function (req, res) {
+		const all = await db.ProfileImage.findAll();
+
+		res.status(200).json({
+			total: all.length,
+			data: all,
+			status: 200,
+		});
 	},
 };
 
