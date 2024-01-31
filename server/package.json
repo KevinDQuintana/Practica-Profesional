@@ -2,9 +2,10 @@
   "name": "practica_profesional-server",
   "version": "1.0.0",
   "description": "codigo fuente para el servidor del challenge de la practica profesional",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "nodemon src/app.js --ext js"
   },
   "repository": {
     "type": "git",
