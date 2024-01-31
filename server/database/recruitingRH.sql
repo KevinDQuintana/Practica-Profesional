@@ -76,3 +76,13 @@ VALUES
 	('Carlos', 'Martínez', '1980-09-18', '34567890', 'Male', '+6677888900', 'carlos@email.com', 'https://linkedin.com/carlos', 2, null),
 	('Gloria', 'Medina', '1990-01-15', '12345678', 'Female', '+1234567890', 'gloria@email.com', 'https://linkedin.com/gloria', 2, 1),
 	('Tim', 'Tim', '2000-08-10', '98765432', 'Female', '+1122334455', 'tim@email.com', 'https://linkedin.com/tim', 7, 3);
+
+INSERT INTO profile_images
+	(image_name)
+VALUES
+	('8d2a35b2-bb36-4cba-8eb8-85416fd2f945'),
+	('14f67712-bc71-44e7-aadf-fda0a4b2d15b'),
+	('b7c66f4e-761d-423a-9d64-ce2c2cf9e078'),
+	('bfe6634b-a31d-456c-880b-8ff856c4ded7'),
+	('d97ce5ad-c7d2-4a3d-9587-20f0d032b161'),
+	('e934d658-c89d-40be-85fd-3203bac006b0');
