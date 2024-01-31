@@ -1,4 +1,4 @@
-export default (sequelize, DataTypes) => {
+const model = (sequelize, DataTypes) => {
 	const alias = 'Profession';
 	const cols = {
 		profession_id: {
@@ -16,4 +16,7 @@ export default (sequelize, DataTypes) => {
 	};
 
 	const Profession = sequelize.define(alias, cols, config);
+	return Profession;
 };
+
+module.exports = model;

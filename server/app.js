@@ -1,7 +1,8 @@
-import express from 'express';
-import applicants from './src/routes/applicants.js';
-import professions from './src/routes/professions.js';
-import imageSend from './src/routes/imageSend.js';
+const express = require('express');
+
+const applicants = require('./src/routes/applicants');
+const professions = require('./src/routes/professions.js');
+const imageSend = require('./src/routes/imageSend.js');
 
 const app = express();
 const port = process.env.PORT || 3000;
